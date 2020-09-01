@@ -63,3 +63,36 @@
 .nav__btn:last-child {
   animation-delay: 0.8s;
 }
+
+.nav__alarm-bdge {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: tomato;
+  display: flex;
+}
+
+.nav__notification-alarm {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  animation: notificationAnimation_rising 1s linear infinite;
+}
+
+@keyframes notificationAnimation_rising {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.nav__notification-friends {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}

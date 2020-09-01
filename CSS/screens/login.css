@@ -8,6 +8,7 @@
 .welcome-header__title {
   margin-bottom: 40px;
   font-size: 25px;
+  font-weight: 900;
 }
 .welcome-header__text {
   width: 60%;
