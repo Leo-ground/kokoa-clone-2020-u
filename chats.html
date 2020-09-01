@@ -30,7 +30,9 @@
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-comment-medical fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <a href="settings.html"
+          ><span><i class="fas fa-cog fa-lg"></i></span
+        ></a>
       </div>
     </header>
 
@@ -39,11 +41,11 @@
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://img.hankyung.com/photo/201909/74afe0c18d08814dcf7d03203cce1039.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSKQ0z4bI9fUdmDEXd4mMu0sy8-fnuJjNyVxA&usqp=CAU"
               class="user-component__avatar user-component__avatar"
             />
             <div class="user-component__text">
-              <h4 class="user-component__title">Leo</h4>
+              <h4 class="user-component__title">Tube</h4>
               <h6 class="user-component__subtitle">
                 Please check My kokoa Account Info
               </h6>
@@ -61,24 +63,27 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
+            ><span class="nav__notification-friends badge">3</span>
+            <i class="fas fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-comment fa-2x"></i
+            <i class="far fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
+            ><div class="nav__notification-alarm nav__alarm-bdge"></div>
+            <i class="fas fa-search fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="more.html"
-            ><i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
+          <a class="nav__link" href="more.html">
+            <div class="nav__notification-alarm nav__alarm-bdge"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
         </li>
       </ul>
     </nav>
